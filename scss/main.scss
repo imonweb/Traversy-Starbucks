@@ -6,9 +6,27 @@
   height: auto;
   background-color: #fff;
   padding: 20px;
+  // border-bottom: 1px solid #000;
+  // box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+  //   0 0 2px rgb(0 0 0 7%);
 
   ul {
-    
+    display: flex;
+    align-items: center;
+
+    li {
+      margin: 0 15px;
+      font-weight: bold;
+    }
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-primary);
+    }
   }
  
 
@@ -37,6 +55,21 @@
       width: 20px;
       margin-right: 10px;
     }
+
+     & li:first-child a {
+      display: flex;
+      align-items: center;
+    }
+
+    li:nth-child(2){
+      margin: 0 5px;
+    }
+  }
+
+  &__nav--left {
+    text-transform: uppercase;
+    flex: 1;
+    margin-left: 20px;
   }
 } /*  navbar */
 

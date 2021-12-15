@@ -34,3 +34,42 @@ p {
 img {
   max-width: 100%;
 }
+
+/*  Buttons */
+.btn {
+  cursor: pointer;
+  display: innline-blocks;
+  background: none;
+  border: 1px #000 solid;
+  border-radius: 50px;
+  padding: 7px 16px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+
+  &__dark--outline {
+    border-color: #000;
+    color: #000;
+
+    &:hover {
+      background-color: rgba(0,0,0,0.06);
+    }
+  }
+
+  &__light--outline {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  &__dark {
+    background-color: #000;
+    color: #fff;
+
+    &:hover {
+      background-color: #333;
+    }
+  }
+} /*  btn */
+
+
+
