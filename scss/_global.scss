@@ -65,6 +65,10 @@ section a {
     max-width: 600px;
   }
 } /*  box */
+
+// .box__f .box-text {
+//   max-width: 600px;
+// }
  
 /* Grid Styles */
 .grid-col-2 {
@@ -177,3 +181,9 @@ section a {
   padding: 40px 0;
 }
 
+.divider {
+  width: 95%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 40px auto;
+}

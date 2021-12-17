@@ -1,5 +1,6 @@
 @import 'global';
 @import 'media-queries';
+@import 'footer.scss';
 
 /*  Navbar */
 .navbar {
@@ -7,9 +8,8 @@
   height: auto;
   background-color: #fff;
   padding: 20px;
-  // border-bottom: 1px solid #000;
-  // box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
-  //   0 0 2px rgb(0 0 0 7%);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .10), 0 2px 2px rgba(0, 0, 0, .6),
+   0 0 2px rgba(0, 0, 0, .7);
 
   ul {
     display: flex;
